@@ -1,0 +1,1011 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html{
+  padding: 0;
+  margin: 0;
+}
+body{
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  text-decoration: none;
+  font-size: 10px;
+  font-family: Okra, Helvetica, sans-serif;
+  overflow-x: hidden;
+}
+.header{
+  width: 100%;
+  height: 70vh;
+  margin: 0 auto;
+  padding: 0 auto;
+}
+.nav{
+  display: flex;
+  justify-content: space-between;
+  font-size: 1.4rem;
+  align-items: center;
+  text-align: center;
+  padding: 2rem 4rem;
+  flex-wrap: wrap;
+  width: 100%;
+  height: 10vh;
+  color: #fff;
+}
+.nav h4{
+  cursor: pointer;
+  font-size: 1rem;
+}
+.nav-bar{
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+}
+.nav-bar li{
+  margin: 0 0.3rem;
+}
+.nav-bar li a{
+  text-decoration: none;
+  font-size: 1.5ren;
+  padding: 0.5rem 1rem;
+  border-radius: 0.2rem;
+  letter-spacing: 0.1rem;
+  transition: all 0.3s ease;
+  cursor: pointer;
+  color: #fff;
+}
+.menu-btn{
+  color: #fff;
+  font-size: 22px;
+  cursor: pointer;
+  display: none;
+  left: 0;
+}
+input[type="checkbox"]{
+  display: none;
+  left: 0;
+}
+header {
+  width: 100%;
+  height: 65vh;
+  overflow: hidden;
+  object-fit: cover;
+  position: relative;
+  margin-bottom: 6vh;
+}
+.header-image {
+  position: absolute;
+  width: 100%;
+  top: -20vh;
+  z-index: -1;
+  margin: 0 auto;
+}
+.fimage {
+  width: 100%;
+  height: 100vh;
+  object-fit: cover;
+  justify-self: center;
+}
+.head {
+  display: flex;
+  flex-direction: column;
+  font-size: 2rem;
+  padding-top: 0.8rem;
+  align-items: center;
+}
+.logo{
+  padding-top: 2.5rem;
+}
+.logo-img {
+  max-width: 20vh;
+  min-width: 40vh;
+  height: 100%;
+}
+.head h3 {
+  margin: 0 auto;
+  padding-top: 1rem;
+  padding-bottom: 2rem;
+  font-size: 2rem;
+  color: whitesmoke;
+  font-weight: lighter;
+  font-family: Okra, Helvetica, sans-serif;
+text-align: center;
+}
+.search {
+  top: 1rem;
+  display: flex;
+  width: 100%;
+    min-width: 40%;
+    max-width: 60%;
+  align-items: center;
+  border-radius: 10px;
+  padding: 0.4rem 0;
+  margin: 0 auto;
+  background: white;
+  height: 6vh;
+  text-align: center;
+}
+.search input {
+  outline: none;
+  border: none;
+  min-width:20%;
+}
+.search .location {
+  width: auto;
+  padding-left: 5px;
+}
+.fa-location-dot {
+  font-size: 1rem;
+  padding:0 0.5em;
+  color: red;
+}
+.fa-magnifying-glass {
+  font-size: 1rem;
+  padding:0 0.5em;
+}
+p {
+  color: gray;
+  font-size: 1.5rem;
+  padding-right: 0.4em;
+}
+.sec-1 {
+  display: grid;
+  justify-content: center;
+  grid-template-columns: 50% 50%;
+  grid-column-gap: 1rem;
+  align-items: center;
+  text-align: center;
+margin: 0 auto;
+padding-left: 6rem;
+padding-right: 6rem;
+}
+.box {
+  position: relative;
+  padding: 0%;
+  margin: 0 auto;
+  width: 100%;
+  height: 30vh;
+  object-fit: cover;
+  border-radius: 10px;
+  border: 1px solid rgb(235, 233, 233);
+  box-shadow: 0 1px 3px rgb(226, 223, 223);
+  cursor: pointer;
+  transform: 0.5s;
+}
+.box img {
+  align-items: center;
+  width: 100%;
+  height: 90%;
+  object-fit: cover;
+  border-radius: 10px;
+  border: 1px solid rgb(204, 203, 203);
+  z-index: -1;
+  transform: 0.5s;
+  margin: 0 auto;
+}
+.white {
+  margin: 0 auto;
+  position: absolute;
+  bottom: 0;
+  object-fit: cover;
+  align-items: center;
+  border-radius: 0 0 10px 10px;
+  width: 100%;
+  height: 10vh;
+  z-index: 2;
+  background-color: white;
+  transform: 0.5s;
+}
+.white p {
+  margin-top: 0.5rem;
+  padding-left: 0.4em;
+  text-align: start;
+  font-size: 1rem;
+  color: solid black;
+  letter-spacing: 0.7px;
+  transform: 0.5s;
+}
+.white p strong{
+  font-size: 1.2rem;
+}
+.box:hover {
+  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+  transform: 0.5s;
+}
+.middle {
+  position: relative;
+
+}
+.sec-2{
+  padding-top: 4rem;
+  width: 90%;
+  padding-left: 6rem;
+  padding-right: 6rem;
+}
+.sec-2 h2 {
+  font-size: 2rem;
+  font-weight: lighter;
+
+}
+.sec-2 div {padding-top: 1rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  
+}
+span{
+  cursor: pointer;
+}
+.sec-2 h6,span{
+  margin: 0;
+  font-size: 1rem;
+  font-weight: lighter;
+  color: gray;
+}
+.fa-caret-right,
+  .sec-2 span {
+    color: #ff7e8b;
+  }
+  .sec-3 {
+    padding-top: 0.6rem;
+    display: grid;
+    justify-content: center;
+    grid-template-columns: 20% 20% 20% 20%;
+    grid-column-gap: 1rem;
+    align-items: center;
+    text-align: center;
+  margin: 0 auto;
+  }
+  .box-1 {
+    width: 100%;
+    height: 230px;
+    min-height: 90px;
+    overflow: hidden;
+    position: relative;
+    border-radius: 8px;
+    object-fit: cover;
+    cursor: pointer;
+  }
+  .box-1 div {
+    position: absolute;
+    background: linear-gradient(transparent, black);
+    width: 100%;
+    height: 25%;
+    display: flex;
+    align-items: flex-end;
+    bottom: 0;
+  }
+  .box-1 div span {
+    display: inline-block;
+    color: white;
+    font-size: 1rem;
+    padding-bottom: 0.5em;
+    margin: 0 auto;
+    margin-left: 0.5rem;
+    bottom: 0;
+  }
+  .box-1 i {
+    color: white;
+    padding-bottom: 0;
+  }
+  .box-1 img {
+    width: 255px;
+    height: 300px;
+    object-fit: cover;
+  }
+  .middle h1 {
+    font-size: 2.1rem;
+    font-weight: lighter;
+    text-align: center;
+    margin-top: 3em;
+    color: rgb(56, 56, 56);
+  }
+  .sec-4 {
+    margin-top: 1.5rem;
+    text-align: center;
+    display: grid;
+    justify-content: center;
+    grid-column-gap: 1rem;
+    grid-row-gap: 1.5rem;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: auto;
+  }
+  .box-2 {
+    border: 1px solid rgb(235, 233, 233);
+    box-shadow: 0 1px 3px rgb(226, 223, 223);
+    width: 100%; 
+    height: 10vh;
+    overflow: hidden;
+    border-radius: 10px;
+    cursor: pointer;
+  }
+  .box-2 div {
+    overflow: hidden;
+    display: flex;
+    margin: 1rem;
+  }
+  .box-2 div span {
+    color: rgb(65, 64, 64);
+    font-size: 1.5rem;
+    display: inline-block;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
+  .box-2 div i{
+    margin-top: 0.2rem;
+    font-size: 0.8rem;
+    margin-left: 0.2rem;
+  }
+  .box-2:hover {
+    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+  }
+  .sec-5 {
+    display: flex;
+    margin: 6rem 0;
+    padding: 4rem 0;
+    justify-content: center;
+    background-color: rgb(255, 248, 248);
+  }
+  .flex {
+    display: flex;
+  }
+  .contact {
+    width: 90%;
+    overflow: hidden;
+    justify-content: center
+  }
+  .contact .phone-img {
+    width: 30vw;
+    height: 30vw;
+  }
+  .address {
+    width: 45%;
+    margin-top: 2rem;
+    margin-left: 1rem;
+  }
+  .address p {
+    padding-bottom: 1rem;
+    font-size: 1rem;
+    color: rbg(92, 91, 91);
+    line-height: 1.5rem;
+  }
+  .address h2 {
+    font-size: 2.7rem;
+    font-weight: lighter;
+    margin-top: 1.5rem;
+    margin-bottom: 2rem;
+    color: rgb(34, 34, 34);
+  }
+  .radio {
+    display: flex;
+    padding: 0.6rem;
+  }
+  .radio label {
+    padding: 0.6rem;
+    font-size: 1.1rem;
+    column-rule: rgb(49, 49, 49);
+  }
+  .radio [type="radio"] {
+    accent-color: rgb(239, 79, 95);
+  }
+  .email {
+    position: relative;
+    padding-bottom:0.6rem ;
+  }
+  .email input {
+    height: 8vh;
+    border-radius: 5px;
+    width: 27vw;
+    border: 1px solid rgb(184, 183, 183);
+    font-size: 1rem;
+    padding-left: 0.8rem;
+  }
+  .place {
+    position: absolute;
+    font-size: 1.3rem;
+    left: 0.8rem;
+    top: 0.8rem;
+    color: gray;
+    font-weight: lighter;
+  }
+  .email button {
+    width: 15vw;
+    border-radius: 6px;
+    border: 1px solid rgb(253, 104, 104);
+    background-color: rgb(253, 104, 104);
+    font-size: 1.1rem;
+    margin-left: 0.3rem;
+    color: white;
+    cursor: pointer;
+  }
+  .download {
+    font-size: 0.7rem;
+    color: gray;
+  }
+  .app img {
+    width: 30vw;
+    height: 10vh;
+    cursor: pointer;
+    padding-right: 0.6rem;
+  }
+  .end {
+    position: relative;
+    margin-left: 6rem;
+    margin-right: 6rem;
+  }
+  .sec-6 {
+    margin-top: 5rem;
+  }
+  .sec-6 h1 {
+    font-size: 3.5rem;
+    font-weight: lighter;
+    margin-bottom: 1.6rem;
+    color: rgb(31, 31, 31);
+  }
+  .sec-6 h4 {
+    font-size: 3rem;
+    margin-bottom: 1.4rem;
+    font-weight: lighter;
+    color: rgb(31, 31, 31);
+  }
+  .sec-6 a {
+    text-decoration: none;
+    color: gray;
+    font-size: 2rem;
+  }
+  .sec-6 a:hover {
+    color: rgb(66, 62, 62);
+  }
+  .sec-6 i {
+    font-size: 0.5rem;
+    padding: 0.4rem 0.1rem;
+    color: gray;
+  }
+  .end-column a {
+    width: 19vw;
+    font-size: 1.8rem;
+    font-weight: lighter;
+    display: inline-block;
+    margin: 0.8rem 0;
+    justify-content: space-between;
+  }
+  footer {
+    margin-top: 5rem;
+  }
+  .first img {
+    width: 13vw;
+    height: 7vh;
+  }
+  .sec-7 {
+    padding: 3rem 3rem;
+    background: rgb(248, 248, 248);
+  }
+  .first {
+    display: flex;
+    justify-content: space-between;
+  }
+  .first-1 {
+    display: flex;
+    cursor: pointer;
+  }
+  .first-1 span {
+    padding: 1rem;
+    border: 1px solid black;
+    border-radius: 5px;
+    margin-right: 2rem;
+    font-weight: 400;
+    font-size: 1.3rem;
+    justify-content: space-between;
+  }
+  .first-1 i {
+    padding-right: 0.2rem;
+  }
+  .second {
+    display: flex;
+    justify-content: space-between;
+    margin: 3rem 0;
+  }
+  .second div {
+    width: 20vw;
+  }
+  .second h4 {
+    font-size: 1.3rem;
+    font-weight: lighter;
+    color: rgb(22, 22, 22);
+    white-space: nowrap;
+  }
+  .second a {
+    display: inline-block;
+    width: 20vw;
+    margin-bottom: 0.4rem;
+    white-space: nowrap;
+    text-decoration: none;
+    color: gray;
+    font-size: 1.5rem;
+  }
+  .second a:hover {
+    color: rgb(66, 62, 62);
+  }
+  .second img {
+    width: 137px;
+    height: 40px;
+    margin-top: 11px;
+    cursor: pointer;
+  }
+  .box-4 {
+    display: flex;
+    flex-direction: column;
+  }
+  .box-4 {
+    margin-top: 0.1rem;
+    margin-left: 0.3rem;
+    margin-bottom: 0.3rem;
+  }
+  .box-4 i {
+    padding-bottom: 1rem;
+    font-size: 1.5rem;
+    cursor: pointer;
+  }
+  .third{
+    font-size: 1.3rem;
+  }
+  
+@media only screen and (max-width: 1280px) {
+  .sec-2 h6,span{
+    font-size: 0.9rem;
+  }
+  .sec-2{
+    padding-left: -2rem;
+    padding-right: -2rem;
+  }
+  .address h2 {
+    font-size: 2.4rem;
+    margin-top: -1rem;
+  }
+  .address {
+    margin-left: 0.8rem;
+}
+.email input {
+  height: 8vh;
+  width: 27vw;
+}
+.email button {
+  width: 15vw;
+}
+.contact .phone-img {
+  width: 35vw;
+  height: 35vw;
+}
+.app img {
+  width: 27vw;
+  height: 8vh;
+}
+.sec-6 h1 {
+  font-size: 3rem;
+}
+.sec-6 h4 {
+  font-size: 2.5rem;
+}
+.sec-6 a {
+  font-size: 1.5rem;
+}
+.first img {
+  width: 13vw;
+  height: 6vh;
+}
+.sec-7 {
+  padding: 2rem 2rem;
+  background: rgb(248, 248, 248);
+}
+.first-1 span {
+  font-size: 1.2rem;
+}
+.second h4 {
+  font-size: 1.2rem;
+}
+.second a {
+  font-size: 1.3rem;
+}
+.second a:hover {
+  color: rgb(66, 62, 62);
+}
+}
+@media only screen and (max-width: 950px) {
+  .address h2 {
+    font-size: 2.2rem;
+    margin-top: -1rem;
+  }
+  .email input {
+    width: 25vw;
+  }
+  .email button {
+    font-size: 1rem;
+  }
+  .contact .phone-img {
+    width: 35vw;
+    height: 35vw;
+  }
+  .sec-6 h1 {
+    font-size: 2.5rem;
+  }
+  .sec-6 h4 {
+    font-size: 2rem;
+  }
+  .sec-6 a {
+    font-size: 1.3rem;
+  }
+  .sec-6 i {
+    font-size: 0.3rem;
+  }
+  .sec-7 {
+    padding: 3rem 1rem;
+  }
+  .first-1 span {
+    font-size: 1.2rem;
+  }
+  .second h4 {
+    font-size: 1rem;
+  }
+  .second a {
+    font-size: 0.9rem;
+  }
+  .box-4 i {
+    font-size: 1.3rem;
+  }
+  .third{
+    font-size: 1rem;
+  }
+  .second div {
+    width: 18vw;
+  }
+  .second a {
+    width: 18vw;
+  }
+}
+@media only screen and (max-width: 855px) {
+
+  .nav-bar li{
+    margin: 0%;
+  }
+  .nav-bar li a{
+    font-size: 1.3rem;
+  }
+  .sec-1 {
+    grid-column-gap: 0.8rem;
+  padding-left: rem;
+  padding-right: -2rem;
+  }
+  .white p {
+    font-size: 0.9rem;
+  }
+  .box {
+    height: 27vh;
+  }
+  .sec-2{
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
+  
+  .sec-2 h2 {
+    font-size: 1.8rem;
+  }
+  .middle h1 {
+    font-size: 1.9rem;
+  }
+  .sec-6 h1 {
+    font-size: 2.3rem;
+  }
+  .sec-6 h4 {
+    font-size: 1.7rem;
+  }
+  .sec-6 a {
+    font-size: 1.3rem;
+  }
+  .sec-7 {
+    padding: 3rem 0.8rem;
+  }
+  .first-1 span {
+    font-size: 1rem;
+  }
+  .second h4 {
+    font-size: 0.9rem;
+  }
+  .second a {
+    font-size: 0.8rem;
+  }
+  .box-4 i {
+    font-size: 1.2rem;
+  }
+  .third{
+    font-size: 1rem;
+  }
+  .second div {
+    width: 17vw;
+  }
+  .second a {
+    width: 17vw;
+  }
+  .box-4 {
+    margin-left: 0;
+  }
+}
+@media only screen and (max-width: 768px) {
+.menu-btn{
+    display: block;
+  }
+  #click:checked ~ .menu-btn i:before{
+    content: "\f00d";
+  }
+  .nav-bar{
+    position: fixed;
+    top: 3rem;
+    height: 100vh;
+    width: 100%;
+    display: block;
+    transition: all 0.3s ease;
+    left: -100%;
+    background: #fff;
+    z-index: 10;
+  }
+  #click:checked ~ ul{
+    left: 0;
+  }
+  .nav-bar li{
+    align-items: center;
+    justify-content: center;
+    padding: 1rem 0;
+  }
+  .nav-bar li a{
+    color: rgb(31, 29, 29);
+  }
+  .head h3 {
+    font-size: 1.8rem;
+  }
+  .sec-1 {
+    grid-column-gap: 0.7rem;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  }
+  .white p {
+    font-size: 0.8rem;
+  }
+  .white p strong{
+    font-size: 0.9rem;
+  }
+  .box {
+    height: 20vh;
+  }
+  .sec-2{
+    padding-left: 1.6rem;
+    padding-right: 1.6rem;
+  }
+  .sec-2 h2 {
+    font-size: 1.4rem;
+  }
+  .sec-2 div{
+    padding-top: 0.5rem;
+  }
+  .sec-2 h6,span{
+    font-size: 0.8rem;
+  }
+   .sec-3 {
+    grid-template-columns: 40% 40%;
+    grid-gap: 1rem;
+   }
+  .box-1 {
+    width: 100%;
+    height: 170px;
+  }
+  .box-1 div span {
+    font-size: 0.8rem;
+  }
+  .sec-5 {
+    display: flex;
+    margin: 2rem 0;
+    padding: 2rem 0;
+  }
+  .contact .phone-img {
+  display: none;
+  }
+  .address {
+    margin-left: 0.5rem;
+  }
+  .address h2 {
+    font-size: 2rem;
+    margin-top: -1rem;
+  }
+  .address {
+    width: 80%;
+  }
+  .email input {
+    width: 23vw;
+  }
+    .email button {
+    width: 30vw;
+    font-size: 0.9rem;
+  }
+  .sec-6 h1 {
+    font-size: 2rem;
+  }
+  .sec-6 h4 {
+    font-size: 1.7rem;
+  }
+  .sec-6 a {
+    font-size: 1.3rem;
+  }
+  .end {
+    margin-left: 2rem;
+    margin-right: 2rem;
+  }
+  .second{
+    display: grid;
+    grid-template-columns: 20% 20% 20%;
+    grid-row-gap: 1rem;
+  }
+  .second div {
+    padding-right: 5rem;
+  }
+  .sec-ft1{
+    margin-left: -2rem;
+  }
+  .sec-ft2{
+    margin-left: -3rem;
+  }
+  .first img {
+    width: 18vw;
+    height: 7vh;
+  }
+}
+
+@media only screen and (max-width: 550px) {
+  .head h3 {
+    font-size: 1.5rem;
+  }
+  .sec-1 {
+    grid-column-gap: 0.7rem;
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+  }
+  .white{
+    height: 8vh;
+  }
+  .white p {
+    font-size: 0.7rem;
+  }
+  .white p strong{
+    font-size: 0.8rem;
+  }
+  .box {
+    height: 17vh;
+  }
+  .sec-2 h2 {
+    font-size: 1.2rem;
+  }
+  .sec-2 h6,span{
+    font-size: 0.6rem;
+  }
+  .middle h1 {
+    font-size: 1.6rem;
+  }
+  .address h2 {
+    font-size: 1.7rem;
+  }
+  .email input {
+    width: 21vw;
+  }
+  .email button {
+    font-size: 0.8rem;
+  }
+  .sec-6 h1 {
+    font-size: 1.5rem;
+  }
+  .sec-6 h4 {
+    font-size: 1.3rem;
+  }
+  .sec-6 a {
+    font-size: 0.8rem;
+  }
+  .sec-6 i {
+    font-size: 0.2rem;
+  }
+  .end {
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
+  }
+}
+@media only screen and (max-width: 435px) {
+  .white{
+    height: 6vh;
+  }
+  .white p {
+    font-size: 0.5rem;
+  }
+  .white p strong{
+    font-size: 0.6rem;
+  }
+  .box {
+    height: 15vh;
+  }
+  .sec-2{
+    padding-left: 1.4rem;
+    padding-right: 1.4rem;
+  }
+  .sec-2 h2 {
+    font-size: 1.5rem;
+  }
+  .sec-2 h2 {
+    font-size: 1rem;
+  }
+  .sec-2 h6,span{
+    font-size: 0.4rem;
+  }
+  .box-1 {
+    width: 100%;
+    height: 130px;
+  }
+  .box-1 div span {
+    font-size: 3.6rem;
+  }
+  .middle h1 {
+    font-size: 1.3rem;
+  }
+  .sec-4 {
+    grid-template-columns: 1fr;
+    grid-gap: 0.5rem;
+  }
+  .address h2 {
+    font-size: 1.5rem;
+  }
+  .email input {
+    width: 30vw;
+    font-size: 0.8rem;
+  }
+  .email button {
+    width: 30vw;
+    font-size: 0.8rem;
+  }
+  .app img {
+    width: 35vw;
+    height: 8vh;
+  }
+  .end-column a {
+    font-size: 0.6rem;
+  }
+  .first img {
+    width: 27vw;
+    height: 7vh;
+    margin-bottom: 2rem;
+  }
+  .first {
+    display: block;
+    cursor: pointer;
+  }
+  .first-1 span {
+    padding: 0.9rem;
+    font-size: 1rem;
+  }
+  .second{
+    align-items: center;
+    display: grid;
+    grid-template-columns: 40%;
+    grid-row-gap: 1rem;
+  }
+  .sec-ft1{
+    margin-left: 0;
+  }
+  .sec-ft2{
+    margin-left: 0;
+  }
+  .third{
+    font-size: 0.8rem;
+  }
+}
+@media only screen and (max-width: 355px) {
+  .first-1 span {
+    padding: 0.6rem;
+    font-size: 0.8rem;
+  }
+}
